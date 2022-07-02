@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Staatliches&display=swap');
+
+.text {
+  padding: 30px 20px;
+  background-color: black;
+  opacity: 0.75;
+  margin-top: 30vh;
+  margin-bottom: 15vh;
+  text-align: center;
+}
+
+.message {
+  opacity: 0.9;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  color: yellow;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  width: 30%;
+  font-size: 27px;
+  display: flex;
+  margin: 5px auto;
+  justify-content: center;
+
+}
+.parallax {
+  display: grid;
+}
+body {
+  margin: 0;
+  font-family: "Staatliches", arial, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1488866022504-f2584929ca5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bmlnaHR8ZW58MHx8MHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+span {
+  background-color: beige;
+  color: black;
+  padding: 5px;
+  width: 85%;
+  font-size: 22px;
+  display: flex;
+  margin: 0 auto;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: beige;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
